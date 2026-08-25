@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     new ZipPlugin({
-      filename: 'offline'
+      filename: 'offline' // 打包后的文件名
     })
   ]
 }
